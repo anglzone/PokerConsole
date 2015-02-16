@@ -34,6 +34,19 @@ namespace PokerConsole
 
         private SelectionBet GetSelectionBet(CurrentStats stats)
         {
+            var sel = new SelectionBet();
+
+            if (stats.PreviousBetResult == BetResult.Lost)
+            {
+                
+            }
+
+
+
+        }
+
+        internal object PlaceBet(NextBet nextBet)
+        {
             throw new NotImplementedException();
         }
     }

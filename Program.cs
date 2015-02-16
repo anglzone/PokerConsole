@@ -11,17 +11,25 @@ namespace PokerConsole
     {
         static void Main(string[] args)
         {
+            var betService = new BetService();
            //Start, set initial Stats
             var currentStats = GetInitialStats();
-            
-            //get current stats
-            currentStats = GetCurrentStats();
 
 
-            var betService = new BetService();
+            if (currentStats.BetNumber > 1)
+            {
+                //Get Results
+                
+                //update stats
+                currentStats = GetCurrentStats();
 
-            //set details for next bet
-            var nextBet = betService.GetNextBet(currentStats);
+                //set details for next bet
+                var nextBet = betService.GetNextBet(currentStats);
+                
+                var placeBet = betService.PlaceBet(nextBet);
+
+            }
+
         }
 
         private static CurrentStats GetInitialStats()

@@ -15,9 +15,15 @@ namespace PokerConsole.Models
         public SelectionBetType PreviousBetType { get; set; }
         public int CurrentResultStreak { get; set; }
         public SelectionBetName Player { get; set; }
+
+        public BetModeType BetMode { get; set; }
     }
     public enum BetResult
     {
         Won=0,Lost=1,Tied=2
+    }
+    public enum BetModeType
+    {
+        Passive=0,Switch=1
     }
 }
