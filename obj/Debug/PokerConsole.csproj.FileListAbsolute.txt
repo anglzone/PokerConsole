@@ -1,0 +1,6 @@
+D:\tutorials\UnityOfWork\PokerConsole\PokerConsole\bin\Debug\PokerConsole.exe.config
+D:\tutorials\UnityOfWork\PokerConsole\PokerConsole\bin\Debug\PokerConsole.exe
+D:\tutorials\UnityOfWork\PokerConsole\PokerConsole\bin\Debug\PokerConsole.pdb
+D:\tutorials\UnityOfWork\PokerConsole\PokerConsole\obj\Debug\PokerConsole.csprojResolveAssemblyReference.cache
+D:\tutorials\UnityOfWork\PokerConsole\PokerConsole\obj\Debug\PokerConsole.exe
+D:\tutorials\UnityOfWork\PokerConsole\PokerConsole\obj\Debug\PokerConsole.pdb
